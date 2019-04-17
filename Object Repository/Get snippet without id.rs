@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Get snippet forget id</name>
+   <name>Get snippet without id</name>
    <tag></tag>
    <elementGuidId>ae3318ef-8ed3-4849-a4d8-aab090ec1e8d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

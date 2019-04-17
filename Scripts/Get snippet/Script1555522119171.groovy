@@ -22,9 +22,15 @@ def jsonResponse = jsonSlurper.parseText(response.getResponseText())
 
 String privateKey = jsonResponse.get('privateUid')
 
-WS.sendRequest(findTestObject('Delete snippet', [('privateSnippetId') : privateKey]))
+WS.sendRequest(findTestObject('Get snippet', [('privateId') : privateKey]))
 
-WS.sendRequest(findTestObject('Delete snippet not with DELETE'))
+def nonExistentKey = 'nonexistentkey'
 
-WS.sendRequest(findTestObject('Delete snippet without id'))
+WS.sendRequest(findTestObject('Delete snippet', [('privateSnippetId') : nonExistentKey]))
+
+WS.sendRequest(findTestObject('Get non-existent snippet', [('privateId') : nonExistentKey]))
+
+WS.sendRequest(findTestObject('Get snippet with POST request'))
+
+WS.sendRequest(findTestObject('Get snippet without id'))
 

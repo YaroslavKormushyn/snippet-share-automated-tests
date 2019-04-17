@@ -12,19 +12,4 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import groovy.json.JsonSlurper
-
-response = WS.sendRequest(findTestObject('Create snippet'))
-
-def jsonSlurper = new JsonSlurper()
-
-def jsonResponse = jsonSlurper.parseText(response.getResponseText())
-
-String privateKey = jsonResponse.get('privateUid')
-
-WS.sendRequest(findTestObject('Delete snippet', [('privateSnippetId') : privateKey]))
-
-WS.sendRequest(findTestObject('Delete snippet not with DELETE'))
-
-WS.sendRequest(findTestObject('Delete snippet without id'))
 
