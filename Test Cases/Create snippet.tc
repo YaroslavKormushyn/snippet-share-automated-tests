@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create snippet</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76fa1749-2c10-41dc-befc-c8c6e2f77cb5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09937ebe-25b8-4364-82e1-995e999fad59</id>
+      <masked>false</masked>
+      <name>publicSnippetUid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2965bbbc-969c-4ada-b840-f088b766a7ad</id>
+      <masked>false</masked>
+      <name>privateSnippetUid</name>
+   </variable>
+</TestCaseEntity>
