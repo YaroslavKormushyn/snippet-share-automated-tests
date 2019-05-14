@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ckeck if theme is changed</description>
+   <name>SetThemeTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca3fdde2-9c3e-41ea-b226-2f729b2b745f</testCaseGuid>
+</TestCaseEntity>

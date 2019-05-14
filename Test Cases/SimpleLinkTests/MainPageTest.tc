@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test if main page link is working properly</description>
+   <name>MainPageTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f654aa87-3dab-441e-bb2d-3f676b4bd6bb</testCaseGuid>
+</TestCaseEntity>

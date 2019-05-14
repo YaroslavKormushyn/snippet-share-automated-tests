@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check if public link is opening</description>
+   <name>PublicLinkTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2a60fe4-3ef3-47ce-8325-d6da6a064dda</testCaseGuid>
+</TestCaseEntity>

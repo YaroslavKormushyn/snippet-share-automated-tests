@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TextArea</name>
+   <tag></tag>
+   <elementGuidId>f03afb7b-c6d7-4506-98ec-18480c5fc7bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>id('brace-editor')/div[@class='ace_scroller']/div[@class='ace_content']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>id('brace-editor')/div[@class='ace_scroller']/div[@class='ace_content']</value>
+   </webElementXpaths>
+</WebElementEntity>

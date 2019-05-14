@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test if about link is working properly</description>
+   <name>AboutPageTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aea8c41d-d21d-4ddf-bda3-883a4efbd09e</testCaseGuid>
+</TestCaseEntity>
