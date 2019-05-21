@@ -59,12 +59,6 @@
       <testCaseId>Test Cases/SimpleLinkTests/PublicLinkTest</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc49a68e-a6eb-4383-8b7b-5898088869c2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/GeneralTests/ShareTest</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1fb6c947-b1da-4199-a931-65f94afc1a15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

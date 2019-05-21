@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('snippet-sharing.firebaseapp.com/snippet/-LdAhnGRpBE8jydbRqiD')
 
+WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/TextArea'), 5)
+
 WebUI.verifyElementText(findTestObject('Page_Snippet Share/TextArea'), 'some java code here')
 
 WebUI.closeBrowser()
