@@ -12,7 +12,7 @@ pool:
 steps:
 - script: docker pull katalonstudio/katalon
   displayName: 'Pull katalon sudio images'
-- script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Firefox" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/GeneralUITests"
+- script: docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/GeneralUITests"
   displayName: 'Runnning Katalon GeneralUITests'
 - task: PublishPipelineArtifact@0
   inputs:
