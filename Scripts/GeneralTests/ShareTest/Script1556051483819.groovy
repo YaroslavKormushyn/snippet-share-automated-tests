@@ -22,6 +22,8 @@ WebUI.click(findTestObject('Page_Snippet Share/Share'))
 
 WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/EditableLink'), 5)
 
+WebUI.delay(5)
+
 WebUI.verifyElementVisible(findTestObject('Page_Snippet Share/EditableLink'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/ReadOnlyLink'), 5)
