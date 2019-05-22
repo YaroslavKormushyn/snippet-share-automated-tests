@@ -20,9 +20,15 @@ WebUI.verifyElementText(findTestObject('Page_Snippet Share/TextArea'), 'Enter te
 
 WebUI.click(findTestObject('Page_Snippet Share/Share'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Snippet Share/privateLink'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/EditableLink'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Page_Snippet Share/publicLink'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5)
+
+WebUI.verifyElementVisible(findTestObject('Page_Snippet Share/EditableLink'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/ReadOnlyLink'), 5)
+
+WebUI.verifyElementVisible(findTestObject('Page_Snippet Share/ReadOnlyLink'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

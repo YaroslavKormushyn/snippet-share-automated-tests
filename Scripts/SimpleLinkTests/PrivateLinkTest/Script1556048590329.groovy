@@ -15,6 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.clientUrl + '/snippet/-LdAhnGRpBE8jydbRqiD')
 
+WebUI.waitForElementPresent(findTestObject('Page_Snippet Share/TextArea'), 5)
+
+WebUI.delay(5)
+
 WebUI.verifyElementText(findTestObject('Page_Snippet Share/TextArea'), 'some java code here')
 
 WebUI.closeBrowser()
