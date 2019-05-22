@@ -15,6 +15,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/GeneralTests/ShareTest</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2db66710-eb54-484d-bc5a-b1e9e4e6c4c6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>f732a6a3-c8b3-4ecb-8c6b-dc680a3086f6</guid>
@@ -63,6 +69,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/GeneralTests/ShareTest</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2db66710-eb54-484d-bc5a-b1e9e4e6c4c6</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>1fb6c947-b1da-4199-a931-65f94afc1a15</guid>

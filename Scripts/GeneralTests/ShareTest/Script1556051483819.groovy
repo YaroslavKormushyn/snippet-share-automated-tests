@@ -14,7 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver
 
-WebUI.openBrowser('snippet-sharing.firebaseapp.com')
+WebUI.openBrowser(GlobalVariable.clientUrl)
 
 WebUI.verifyElementText(findTestObject('Page_Snippet Share/TextArea'), 'Enter text here...')
 

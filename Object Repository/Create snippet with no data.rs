@@ -6,6 +6,7 @@
    <elementGuidId>8659b8f3-f2c0-4d95-ba78-5272c9398624</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{ \n  \&quot;author\&quot;: \&quot;Author\&quot;, \n  \&quot;title\&quot;: \&quot;Title\&quot;, \n  \&quot;type\&quot;: \&quot;plain_text\&quot; \n}&quot;,
@@ -22,12 +23,19 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://us-central1-snippet-sharing.cloudfunctions.net/createSnippet</restUrl>
+   <restUrl>https://${baseurl}/createSnippet</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.apiUrl</defaultValue>
+      <description></description>
+      <id>bfee4a95-9a48-4bdd-85c1-7b031b29f818</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

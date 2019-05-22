@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Default cloud functions url.</description>
+      <initValue>'us-central1-snippet-sharing-test.cloudfunctions.net'</initValue>
+      <name>apiUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default client hosting url.</description>
+      <initValue>'snippet-sharing.firebaseapp.com'</initValue>
+      <name>clientUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

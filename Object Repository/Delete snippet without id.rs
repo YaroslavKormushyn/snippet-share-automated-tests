@@ -6,6 +6,7 @@
    <elementGuidId>4290c055-d021-42e4-b752-03f66acfc209</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;&quot;,
@@ -15,12 +16,19 @@
    <httpBodyType>text</httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>DELETE</restRequestMethod>
-   <restUrl>https://us-central1-snippet-sharing.cloudfunctions.net/deleteSnippet</restUrl>
+   <restUrl>https://${baseurl}/deleteSnippet</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.apiUrl</defaultValue>
+      <description></description>
+      <id>1bea6169-a20d-467b-a4fe-71201300325b</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

@@ -6,6 +6,7 @@
    <elementGuidId>9261118d-c461-48ca-9e6a-192bc47aebd3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;&quot;,
@@ -15,12 +16,19 @@
    <httpBodyType>text</httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://us-central1-snippet-sharing.cloudfunctions.net/updateSnippet</restUrl>
+   <restUrl>https://${baseurl}/updateSnippet</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.apiUrl</defaultValue>
+      <description></description>
+      <id>5a648148-eee1-438c-bc1b-185983a15558</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject

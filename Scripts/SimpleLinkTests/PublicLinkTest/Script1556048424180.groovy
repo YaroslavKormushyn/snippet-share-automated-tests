@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('snippet-sharing.firebaseapp.com/snippet/-LdAhnGRpBE8jydbRqiD')
+WebUI.openBrowser(GlobalVariable.clientUrl + '/snippet/-LdAhnGRpBE8jydbRqiD')
 
 WebUI.verifyElementText(findTestObject('Page_Snippet Share/TextArea'), 'some java code here')
 

@@ -6,6 +6,7 @@
    <elementGuidId>5f1886b0-03f8-4b73-bf87-937daad5d314</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
   &quot;text&quot;: &quot;{ \n  \&quot;author\&quot;: \&quot;Author\&quot;, \n  \&quot;title\&quot;: \&quot;Title\&quot;, \n  \&quot;data\&quot;: \&quot;Sample text\&quot;, \n  \&quot;type\&quot;: \&quot;plain_text\&quot; \n}&quot;,
@@ -22,12 +23,19 @@
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://us-central1-snippet-sharing.cloudfunctions.net/createSnippet</restUrl>
+   <restUrl>https://${baseurl}/createSnippet</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.apiUrl</defaultValue>
+      <description></description>
+      <id>6a664684-df30-40fa-8a7d-1406f782ff48</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.testobject.RequestObject

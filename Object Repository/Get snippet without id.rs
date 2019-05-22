@@ -6,17 +6,25 @@
    <elementGuidId>ae3318ef-8ed3-4849-a4d8-aab090ec1e8d</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://us-central1-snippet-sharing.cloudfunctions.net/getSnippet?id=-LSCQUzE1ECa_i43Dzj_</restUrl>
+   <restUrl>https://${baseurl}/getSnippet?id=-LSCQUzE1ECa_i43Dzj_</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.apiUrl</defaultValue>
+      <description></description>
+      <id>8bff77c7-b4ff-4cc9-b5c6-b2ded056542a</id>
+      <masked>false</masked>
+      <name>baseurl</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
